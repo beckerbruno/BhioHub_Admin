@@ -16,12 +16,12 @@ L.Icon.Default.mergeOptions({
 });
 
 const talentLocations = [
-  { id: 1, name: 'Dr. Ana Silva', role: 'Cardiologista Sênior', city: 'São Paulo', state: 'SP', position: [-23.5505, -46.6333], expertise: ['Cardiologia', 'Gestão'], phone: '+55 51 85858-55555' },
-  { id: 2, name: 'Enf. Bruno Costa', role: 'Enfermeiro Chefe UTI', city: 'Rio de Janeiro', state: 'RJ', position: [-22.9068, -43.1729], expertise: ['UTI', 'Emergência'], phone: '+55 51 77777-7777' },
-  { id: 3, name: 'Fisio. Carla Lima', role: 'Fisioterapeuta Respiratória', city: 'Belo Horizonte', state: 'MG', position: [-19.9167, -43.9345], expertise: ['Respiratória', 'Reabilitação'] },
-  { id: 4, name: 'Dr. Marcos Oliveira', role: 'Cirurgião Geral', city: 'Curitiba', state: 'PR', position: [-25.4284, -49.2733], expertise: ['Cirurgia', 'Auditoria'], phone: '+55 51 99999-9999' },
+  { id: 1, name: 'Dr. Ana Silva', role: 'Cardiologista Sênior', city: 'São Paulo', state: 'SP', position: [-23.5505, -46.6333], expertise: ['Cardiologia', 'Gestão'], phone: '+55 11 85858-55555' },
+  { id: 2, name: 'Enf. Bruno Costa', role: 'Enfermeiro Chefe UTI', city: 'Rio de Janeiro', state: 'RJ', position: [-22.9068, -43.1729], expertise: ['UTI', 'Emergência'], phone: '+55 21 77777-7777' },
+  { id: 3, name: 'Fisio. Carla Lima', role: 'Fisioterapeuta Respiratória', city: 'Belo Horizonte', state: 'MG', position: [-19.9167, -43.9345], expertise: ['Respiratória', 'Reabilitação'], phone: '+55 31 55555-5555' },
+  { id: 4, name: 'Dr. Marcos Oliveira', role: 'Cirurgião Geral', city: 'Curitiba', state: 'PR', position: [-25.4284, -49.2733], expertise: ['Cirurgia', 'Auditoria'], phone: '+55 41 99999-9999' },
   { id: 5, name: 'Dra. Sofia Pereira', role: 'Pediatra', city: 'Porto Alegre', state: 'RS', position: [-30.0346, -51.2177], expertise: ['Pediatria', 'Neonatal'], phone: '+55 51 88888-8888' },
-  { id: 6, name: 'Psic. Ricardo Alves', role: 'Psicólogo Clínico', city: 'Salvador', state: 'BA', position: [-12.9714, -38.5014], expertise: ['Clínica', 'Terapia Comportamental'], phone: '+55 51 66666-6666' },
+  { id: 6, name: 'Psic. Ricardo Alves', role: 'Psicólogo Clínico', city: 'Salvador', state: 'BA', position: [-12.9714, -38.5014], expertise: ['Clínica', 'Terapia Comportamental'], phone: '+55 73 66666-6666' },
 ];
 
 const FitBoundsToMarkers = ({ locations }) => {
